@@ -5,30 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Blog preview card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
 
-  Learning
+  <main class="card">
+    <div class="card__image-wrapper">
+      <img class="card__image" src="assets/images/illustration-article.svg" alt ="multicoloured illustration" />
+    </div>
 
-  Published 21 Dec 2023
+    <div class="card__content">
+      <p class="card__badge">Learning</p>
+      <p class="card__published">Published 21 Dec 2023</p>
+      <h1 class="card__title"><a class="card__title-ref" href="#">HTML &amp; CSS foundations</a></h1>
+      <p class="card__text">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+    </div>
 
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
+    <div class="card__author">
+      <img class="card__avatar" src="assets/images/image-avatar.webp" alt="author's avatar" />
+      <p class="card__author-name">Greg Hooper</p>
+    </div>
   
-  <div class="attribution">
+  </main>
+
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="https://www.frontendmentor.io/profile/BaraKalvo" target="_blank">BaraK</a>.
+  </footer>
+
 </body>
 </html>
