@@ -16,12 +16,12 @@
 body {
     margin: 0;
     padding: 20px;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+        
     font-family: "Figtree", sans-serif;
     font-optical-sizing: auto;
     font-size: 1rem;
@@ -32,7 +32,7 @@ body {
 
 .card {
     padding: 24px;
-    min-width: 320px;
+    width: 100%;
     max-width: 380px;
 
     background-color: white;
@@ -81,10 +81,11 @@ body {
 .card__title-ref {
     text-decoration: none;
     color: var(--color-text);
+    transition: color 0.2s ease;
 }
 
 .card__title-ref:hover,
-.card__title-ref:focus,
+.card__title-ref:focus-visible,
 .card__title-ref:active {
     color: var(--color-primary);
 }
