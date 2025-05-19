@@ -31,7 +31,7 @@ Users should be able to:
 
 ### What I learned
 
-By working on this project I learned how to make a font responsive without using media queries.
+While working on this project, I learned how to make font sizes responsive without using media queries.
 
 ```css
 :root {
